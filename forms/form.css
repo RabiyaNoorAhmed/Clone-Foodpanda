@@ -1,0 +1,197 @@
+:root {
+    --primary-color: #d70f64;
+    --gray: rgba(128, 128, 128, 0.208);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.max-w-xl {
+    max-width: 1300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.4rem;
+    margin-right: -30px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.12);
+
+
+}
+
+.navbar img,
+svg {
+    cursor: pointer;
+}
+
+.text-box {
+    margin-right: 30px;
+    font-weight: 450;
+}
+
+.dropdown {
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media screen and (min-width:960px) {
+    .dropdown {
+        margin-right: 50px;
+        display: inline-flex;
+    }
+}
+
+/* form */
+.login-page-container {
+    padding: 32px;
+    margin: 20px;
+
+    background-color: white;
+    box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 25px;
+    height: 536px;
+    width: 400px;
+
+}
+
+.login-page-container h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.login-page-container p {
+    font-size: 15px;
+}
+
+.fb-btn {
+    width: 336px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 15px;
+    background-color: #1877F2;
+    color: white;
+    transition: all 0.2s ease;
+
+}
+
+.fb-btn span {
+    float: left;
+}
+
+.fb-btn:active {
+    transform: scale(0.96)
+}
+
+.google-btn {
+    border: 1px solid rgb(214, 214, 214);
+    width: 336px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0 15px;
+    background-color: white;
+    color: black;
+    transition: all 0.2s ease;
+
+}
+
+.google-btn span {
+    float: left;
+}
+
+.google-btn:active {
+    transform: scale(0.96)
+}
+
+.apple-btn {
+    width: 336px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 15px;
+    background-color: black;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.apple-btn span {
+    float: left;
+}
+
+.apple-btn:active {
+    transform: scale(0.96)
+}
+
+.center-text {
+    text-align: center;
+    margin: 10px;
+    color: #767676;
+}
+
+.login-btn {
+    width: 336px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 15px;
+    background-color: #d70f64;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.login-btn:active {
+    transform: scale(0.96)
+}
+
+.signup-btn {
+    border: 1px solid #d70f64;
+    width: 336px;
+    height: 40px;
+
+    border-radius: 5px;
+    padding: 0 15px;
+    background-color: white;
+    color: #d70f64;
+    transition: all 0.2s ease;
+}
+
+.signup-btn:active {
+    transform: scale(0.96)
+}
+
+.terms-text {
+    width: 336px;
+    height: 40px;
+    margin: 16px 0 0;
+    color: #767676;
+    font-size: 12px;
+}
+
+.terms-text a {
+    color: #d70f64;
+}
+
+.terms-text a:hover {
+    color: #b64574;
+}
+
+@media screen and (min-width:768px) {
+    .login-page-container {
+        margin-left: 500px;
+
+    }
+}
